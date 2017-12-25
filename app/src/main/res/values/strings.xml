@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">92Mobiles</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_discussion_forum">Discussion_forum</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="title_activity_login_">Login</string>
+    <string name="title_activity_signup_">Signup_Activity</string>
+    <string-array name="cites">
+        <item>Select Your City</item>
+        <item>Gujrat</item>
+        <item>Gujrawala</item>
+        <item>Wazirabad</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+    </string-array>
+    <string-array name="Mobiles">
+        <item>Select Mobile</item>
+        <item>Samsung Galaxy S6</item>
+        <item>Iphone 7 Plus</item>
+    </string-array>
+    <string name="title_activity_shopping__cart">Shopping_Cart</string>
+    <string name="title_activity_add_posts_">add_posts_Activity</string>
+    <string name="title_activity_comments_">comments_Activity</string>
+    <string name="title_activity_show_cellular_packages">show_cellular_packages</string>
+    <string name="title_activity_packages_list_">Packages_list_Activity</string>
+    <string name="title_activity_compare__phones_">Compare_Phones_Activity</string>
+    <string name="title_activity_choose__phones_to__compare_">Choose_Phones_to_Compare_Activity
+    </string>
+    <string name="title_activity_phone__details">Phone_Details</string>
+    <string name="title_activity_stolen_mobiles_layout">Stolen_mobiles_layout</string>
+    <string name="title_activity_report__stolen__mobiles">Report_Stolen_Mobiles</string>
+    <string name="title_activity_bidding_">Bidding_Activity</string>
+    <string name="title_activity_smartphone__videos_">Smartphone_Videos_Activity</string>
+    <string name="title_activity_blog_">Blog_Activity</string>
+    <string name="title_activity_display_used_mobiles_">Used Mobiles</string>
+    <string name="title_activity_used_phone_detail_">used_phone_detail_Activity</string>
+    <string name="title_activity_show_bids_">Bids On this Phone</string>
+    <string name="title_activity_show_apps_for_downloading">App Store</string>
+    <string name="title_activity_show_mobiles_by_brand_">Phones By Brand</string>
+    <string name="title_activity_acessories_detail_activity">acessories_detail_activity</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="usmanali.mobileworld.Activity_Files.Signup_Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/editext_drawable"
+          android:hint="Enter Name"
+          android:padding="6dp"
+          android:id="@+id/name"
+          android:layout_marginBottom="16dp"
+          android:layout_marginTop="90dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/name"
+            android:layout_margin="16dp"
+            android:hint="Enter Username"
+            android:padding="6dp"
+            android:id="@+id/username"
+            android:background="@drawable/editext_drawable"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Password"
+            android:padding="6dp"
+            android:layout_below="@+id/username"
+            android:layout_margin="16dp"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:background="@drawable/editext_drawable"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editext_drawable"
+            android:id="@+id/confirmpassword"
+            android:hint="Confirm Password"
+            android:padding="6dp"
+            android:layout_below="@+id/password"
+            android:layout_margin="16dp"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editext_drawable"
+            android:id="@+id/email"
+            android:hint="Enter Email"
+            android:padding="6dp"
+            android:layout_below="@+id/confirmpassword"
+            android:layout_margin="16dp"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editext_drawable"
+            android:id="@+id/address"
+            android:hint="Enter Postal Address"
+            android:padding="6dp"
+            android:layout_below="@+id/email"
+            android:layout_margin="16dp"
+            android:inputType="textPostalAddress"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editext_drawable"
+            android:id="@+id/phone"
+            android:hint="Enter Phone#"
+            android:padding="6dp"
+            android:layout_below="@+id/address"
+            android:layout_margin="16dp"
+            android:inputType="phone"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupbtn"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/phone"
+            android:layout_margin="16dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginbtn"
+            android:background="@null"
+            android:textColor="@color/colorPrimary"
+            android:text="Login"
+            android:layout_below="@+id/signupbtn"
+            android:layout_margin="16dp"
+            />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/place_bid"
+        android:orderInCategory="100"
+        android:title="Place Bid"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/view_bids"
+        android:orderInCategory="100"
+        android:title="View Bids"
+        app:showAsAction="never" />
+    <item
+        android:title="Add to Cart"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/addtocart"/>
+</menu>

@@ -1,0 +1,132 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--&gt;-->
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="129dp"-->
+            <!--android:padding="16dp"-->
+            <!--android:id="@+id/textInputLayoutusername">-->
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/etusername"-->
+                <!--android:padding="16dp"-->
+                <!--android:hint="Username" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textInputLayoutusername"-->
+            <!--app:passwordToggleEnabled="true"-->
+            <!--android:padding="16dp"-->
+            <!--android:id="@+id/textInputLayoutpassword">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/etpassword"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="Password"-->
+                <!--android:inputType="textPassword" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/loginbtn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#ffff"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:text="Login"-->
+            <!--android:layout_marginTop="35dp"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:layout_below="@+id/textInputLayoutpassword"-->
+            <!--android:layout_centerHorizontal="true" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/siguupbtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sign up"-->
+            <!--android:background="@null"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:layout_below="@+id/loginbtn"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="28dp" />-->
+    <!--</RelativeLayout>-->
+<!--</android.support.v4.widget.NestedScrollView>-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+  >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/logo" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Enter Username"
+    android:id="@+id/emailtxt"
+    android:padding="6dp"
+    android:inputType="textEmailAddress"
+    android:background="@drawable/editext_drawable"
+    android:layout_margin="16dp"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Enter Password"
+    android:id="@+id/passwordtxt"
+    android:padding="6dp"
+    android:inputType="textPassword"
+    android:background="@drawable/editext_drawable"
+    android:layout_margin="16dp"
+    />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="bold"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:text="Login"/>
+
+        <Button
+            android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@null"
+            android:textColor="@color/colorPrimary"
+            android:text="No account yet? Create one"
+            android:gravity="center"
+
+            android:textSize="16dip"/>
+
+    </LinearLayout>
+</ScrollView>

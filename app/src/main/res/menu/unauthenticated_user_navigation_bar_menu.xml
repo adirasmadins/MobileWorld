@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Sign Up"
+        android:icon="@drawable/ic_action_signup"
+        android:id="@+id/signup"/>
+    <item android:title="Login"
+        android:icon="@drawable/login"
+        android:id="@+id/login"/>
+    <item android:title="View Used Mobile"
+        app:showAsAction="never"
+        android:icon="@drawable/images"
+        android:id="@+id/viewusedmobile"/>
+    <item android:title="Smartphone Videos"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:id="@+id/videos"/>
+    <item android:title="Compare Phones"
+        android:icon="@drawable/compare"
+        android:id="@+id/compare"/>
+    <item android:title="Cellular Packages"
+        android:id="@+id/packages"
+        android:icon="@drawable/packages"
+        app:showAsAction="never"
+        />
+</menu>

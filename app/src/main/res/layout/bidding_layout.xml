@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/blog" />
+
+    <TextView
+        android:id="@+id/nameofbidder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profilePic"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="7dp"
+    android:layout_toEndOf="@+id/profilePic"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+    <TextView
+        android:id="@+id/bidprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameofbidder"
+        android:layout_below="@+id/nameofbidder"
+        android:layout_marginTop="10dp"
+        android:text="Bid Price"
+        android:textColor="#007f00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/biddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/profilePic"
+        android:layout_margin="6dp"
+        android:layout_alignStart="@+id/bidprice"
+        android:text="Date" />
+</RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="usmanali.mobileworld">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity_Files.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_Files.Discussion_forum"
+            android:label="@string/title_activity_discussion_forum"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Login_Activity"
+            android:label="@string/title_activity_login_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Signup_Activity"
+            android:label="@string/title_activity_signup_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity_Files.postusedmobileads" />
+        <activity
+            android:name=".Activity_Files.splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_Files.Shopping_Cart"
+            android:label="@string/title_activity_shopping__cart"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.add_posts_Activity"
+            android:label="@string/title_activity_add_posts_"
+            android:parentActivityName=".Activity_Files.Discussion_forum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.comments_Activity"
+            android:label="@string/title_activity_comments_"
+            android:parentActivityName=".Activity_Files.Discussion_forum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.show_cellular_packages"
+            android:label="@string/title_activity_show_cellular_packages"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Packages_list_Activity"
+            android:label="@string/title_activity_packages_list_"
+            android:parentActivityName=".Activity_Files.show_cellular_packages"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Compare_Phones_Activity"
+            android:label="@string/title_activity_compare__phones_"
+            android:parentActivityName=".Activity_Files.Choose_Phones_to_Compare_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Choose_Phones_to_Compare_Activity"
+            android:label="@string/title_activity_choose__phones_to__compare_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Phone_Details"
+            android:label="@string/title_activity_phone__details"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Stolen_mobiles_layout"
+            android:label="@string/title_activity_stolen_mobiles_layout"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Report_Stolen_Mobiles"
+            android:label="@string/title_activity_report__stolen__mobiles"
+            android:parentActivityName=".Activity_Files.Stolen_mobiles_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Bidding_Activity"
+            android:label="@string/title_activity_bidding_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.Smartphone_Videos_Activity"
+            android:label="@string/title_activity_smartphone__videos_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.display_used_mobiles_Activity"
+            android:label="@string/title_activity_display_used_mobiles_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.used_phone_detail_Activity"
+            android:label="@string/title_activity_used_phone_detail_"
+            android:parentActivityName=".Activity_Files.display_used_mobiles_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.show_bids_Activity"
+            android:label="@string/title_activity_show_bids_"
+            android:parentActivityName=".Activity_Files.Phone_Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.show_apps_for_downloading"
+            android:label="@string/title_activity_show_apps_for_downloading"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.show_mobiles_by_brand_Activity"
+            android:label="@string/title_activity_show_mobiles_by_brand_"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Files.acessories_detail_activity"
+            android:label="@string/title_activity_acessories_detail_activity"
+            android:parentActivityName=".Activity_Files.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

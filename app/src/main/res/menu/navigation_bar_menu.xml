@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Discussion Forum"
+    android:icon="@drawable/discuss"
+    app:showAsAction="never"
+    android:id="@+id/discussion_forum"/>
+    <item android:title="Compare Phones"
+        android:icon="@drawable/compare"
+        android:id="@+id/compare"/>
+    <item android:title="Post Used Mobile Ads"
+        android:id="@+id/usedmobileads"
+        android:icon="@drawable/images"
+        />
+    <item android:title="Cellular Packages"
+        android:id="@+id/packages"
+        android:icon="@drawable/packages"
+        app:showAsAction="never"
+        />
+    <item android:title="Stolen Mobile"
+        android:icon="@drawable/blog"
+        android:id="@+id/stolenmobiles"
+        />
+    <item android:title="Smartphone Videos"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:id="@+id/videos"/>
+    <item android:title="View Used Mobile"
+        app:showAsAction="never"
+        android:icon="@drawable/images"
+        android:id="@+id/viewusedmobile"/>
+    <item android:title="Download Apps"
+        android:id="@+id/download_apps"
+        android:icon="@drawable/download"
+        />
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_action_cart"
+        android:title="Shopping Cart"/>
+</menu>
